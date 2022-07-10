@@ -1,0 +1,27 @@
+{
+  "name": "alchemy",
+  "author": "Joel D'Souza <joeldsouzax@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design system",
+    "scss",
+    "solid",
+    "react"
+  ],
+  "license": "ISC",
+  "engines": {
+    "node": ">=17",
+    "pnpm": ">=7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
