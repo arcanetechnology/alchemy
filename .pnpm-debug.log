@@ -1,23 +1,20 @@
 {
-  "0 debug pnpm:scope": {
-    "selected": 1
-  },
-  "1 info pnpm": {
+  "0 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "/Users/radoslavpopov/workspace/arcane/alchemy",
+    "wanted": {
+      "node": ">=17",
+      "pnpm": ">=7"
+    },
+    "current": {
+      "node": "v16.13.0",
+      "pnpm": "6.11.0"
+    },
     "err": {
       "name": "Error",
-      "message": "not found: -D",
-      "code": "ENOENT",
-      "stack": "Error: not found: -D\n    at getNotFoundError (/snapshot/dist/pnpm.cjs)\n    at Function.whichSync [as sync] (/snapshot/dist/pnpm.cjs)\n    at getCommandAbsolutePathSync (/snapshot/dist/pnpm.cjs)\n    at default_1 (/snapshot/dist/pnpm.cjs)\n    at /snapshot/dist/pnpm.cjs"
-    }
-  },
-  "2 error pnpm": {
-    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
-    "prefix": "/Users/joeldsouza/dev/src/github.com/arcanetechnology/alchemy",
-    "err": {
-      "name": "pnpm",
-      "message": "not found: -D",
-      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
-      "stack": "Error: not found: -D\n    at getNotFoundError (/snapshot/dist/pnpm.cjs)\n    at Function.whichSync [as sync] (/snapshot/dist/pnpm.cjs)\n    at getCommandAbsolutePathSync (/snapshot/dist/pnpm.cjs)\n    at default_1 (/snapshot/dist/pnpm.cjs)\n    at /snapshot/dist/pnpm.cjs"
+      "message": "Unsupported engine for /Users/radoslavpopov/workspace/arcane/alchemy: wanted: {\"node\":\">=17\",\"pnpm\":\">=7\"} (current: {\"node\":\"v16.13.0\",\"pnpm\":\"6.11.0\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "Error: Unsupported engine for /Users/radoslavpopov/workspace/arcane/alchemy: wanted: {\"node\":\">=17\",\"pnpm\":\">=7\"} (current: {\"node\":\"v16.13.0\",\"pnpm\":\"6.11.0\"})\n    at Object.checkEngine [as default] (/Users/radoslavpopov/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:35213:16)\n    at Object.checkPackage (/Users/radoslavpopov/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:35357:99)\n    at Object.packageIsInstallable (/Users/radoslavpopov/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:35381:44)\n    at Object.exports2.default (/Users/radoslavpopov/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:45870:21)\n    at async run (/Users/radoslavpopov/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125553:29)\n    at async runPnpm (/Users/radoslavpopov/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125799:5)\n    at async /Users/radoslavpopov/.node/corepack/pnpm/6.11.0/dist/pnpm.cjs:125791:7"
     }
   }
 }
